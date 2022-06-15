@@ -24,3 +24,15 @@
 # 2022.05.31
 - ApiExplorer 코드 전면 수정 및 정리.
 - External libs 추가
+
+# 2022.06.15
+- Notification class파일 제거 및 SmSReceiver통합.
+- VirusTotal Api 최종 연동 확인 (Thread 활용).
+- 미사용 코드 정리 및 통합.
+- Min_SDK Version 23 -> 27 (*Android 8 Oreo 부터 Notification Channel use, Android 12 까지 대응 확인.)
+- activity_main 메인화면만 간단 제작(사진 및 캡스톤디자인 조 소개)
+
+# Known Issue
+- 어플리케이션 강제종료 후 문자수신이 실행 오류발생.
+- (Back_Ground 상태에서 테스트해야 정상적으로 Notification 푸쉬 확인 가능.)
+- except, Working
