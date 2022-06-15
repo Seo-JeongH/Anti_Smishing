@@ -62,11 +62,6 @@ public class MainActivity extends AppCompatActivity {
                 arrayPermission.add(Manifest.permission.RECEIVE_SMS);
             }
 
-            permissionCheck = ContextCompat.checkSelfPermission(this, Manifest.permission.READ_SMS);
-            if (permissionCheck != PackageManager.PERMISSION_GRANTED) {
-                arrayPermission.add(Manifest.permission.READ_SMS);
-            }
-
             if (arrayPermission.size() > 0) {
                 String strArray[] = new String[arrayPermission.size()];
                 strArray = arrayPermission.toArray(strArray);

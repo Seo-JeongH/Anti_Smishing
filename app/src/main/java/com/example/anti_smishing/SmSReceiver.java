@@ -88,13 +88,9 @@ public class SmSReceiver extends BroadcastReceiver {
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
                 notificationManager.createNotificationChannel(new NotificationChannel("default", "기본 채널", NotificationManager.IMPORTANCE_HIGH));
             }
-
-
             // id값은
             // 정의해야하는 각 알림의 고유한 int값
             notificationManager.notify(7, builder.build());
-
-
     }
 
     //문자메세지 파싱 함수
