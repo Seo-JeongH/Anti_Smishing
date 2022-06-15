@@ -25,7 +25,7 @@
 - ApiExplorer 코드 전면 수정 및 정리.
 - External libs 추가
 
-# 2022.06.15
+# 2022.06.01 ~ 2022.06.15
 - Notification class파일 제거 및 SmSReceiver통합.
 - VirusTotal Api 최종 연동 확인 (Thread 활용).
 - 미사용 코드 정리 및 통합.
